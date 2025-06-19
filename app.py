@@ -326,8 +326,8 @@ class EmotionPredictor:
         try:
             # Try multiple model file options for deployment compatibility
             model_options = [
-                ('models/logistic_regression_model.pkl', 'models/best_single_metadata.pkl'),
                 ('models/best_single_model.pkl', 'models/best_single_metadata.pkl'),
+                ('models/logistic_regression_model.pkl', 'models/best_single_metadata.pkl'),
             ]
             
             import os
