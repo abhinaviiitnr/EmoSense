@@ -1,8 +1,8 @@
 streamlit
-pandas>=2.0.0
-numpy>=1.25.0
-scikit-learn>=1.3.0
-plotly>=5.15.0
+pandas
+numpy
+scikit-learn
+plotly
+joblib
 textblob
-joblib>=1.3.0
-scipy>=1.11.0
+scipy
